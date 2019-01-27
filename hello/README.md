@@ -27,3 +27,16 @@ Spring Boot默认提供静态资源目录位置需置于classpath下，目录名
 1. 在pom.xml添加thymeleaf依赖
 
 2. 配置 `application.properties`
+
+## Spring Boot配置文件`application.properties`
+
+1. 主要用来配置数据库连接、日志相关配置等
+
+2. 自定义属性与加载
+
+3. 多环境配置
+
+```
+application-{profile}.properties
+spring.profiles.active=profile
+```
