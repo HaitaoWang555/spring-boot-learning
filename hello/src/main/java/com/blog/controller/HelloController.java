@@ -21,6 +21,13 @@ public class HelloController {
         return "demo";
     }
 
+    @RequestMapping("/logError")
+    @ResponseBody
+    public String logError() {
+//      System.out.println(1/0);
+        return "hello spring boot logError!";
+    }
+
     @RequestMapping("/info")
     @ResponseBody
     public String getMsg(HttpServletResponse response) {
