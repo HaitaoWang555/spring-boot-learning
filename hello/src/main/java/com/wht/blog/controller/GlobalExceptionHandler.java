@@ -1,4 +1,4 @@
-package com.blog.controller;
+package com.wht.blog.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

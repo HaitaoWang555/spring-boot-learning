@@ -1,4 +1,4 @@
-package com.blog.Scheduled;
+package com.wht.blog.Scheduled;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

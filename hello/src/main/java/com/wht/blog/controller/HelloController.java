@@ -1,7 +1,7 @@
-package com.blog.controller;
+package com.wht.blog.controller;
 
-import com.blog.Scheduled.Task;
-import com.blog.properties.Proper;
+import com.wht.blog.Scheduled.Task;
+import com.wht.blog.properties.Proper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;

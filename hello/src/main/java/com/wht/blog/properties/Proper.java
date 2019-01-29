@@ -1,4 +1,4 @@
-package com.blog.properties;
+package com.wht.blog.properties;
 
 import lombok.Getter;
 import lombok.Setter;
